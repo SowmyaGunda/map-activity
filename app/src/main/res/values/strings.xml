@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Activity Tracker</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="starttracking">Tracking</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="list">Saved Tracks</string>
+    <string name="reload">Reload</string>
+    <string name="nosaveddata">No Saved Data</string>
+    <string name="loading">Loading…</string>
+
+</resources>

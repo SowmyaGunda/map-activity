@@ -1,0 +1,28 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.map.activity.tracker.MapsActivity"
+    tools:ignore="MergeRootFrame">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Switch
+            android:id="@+id/mySwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="5dp"
+            android:background="@color/switchbackground"
+            android:padding="5dp"
+            android:text="@string/starttracking"
+            android:textSize="16sp" />
+
+    </fragment>
+
+</android.support.design.widget.CoordinatorLayout>
